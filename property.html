@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--===============  meta Tag ===============-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Real State | Property</title>
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+
+  <!--=============== Fontawesome icon ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+  <!--=============== Bootstarp Css ===============-->
+  <link rel="stylesheet" href="./assets/Css/bootstrap.min.css">
+
+  <!-- =============== Aos CSS =============== -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--=============== Main CSS ===============-->
+  <link rel="stylesheet" href="./assets/Css/main.css">
+
+
+
+</head>
+
+<body>
+
+  <div class="scroll">
+    <a href="#"><i class="fas fa-angle-up"></i></a>
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="assets/img/navbarLogo.png" alt="navbarLogo">
+      </div>
+
+      <div class="pageLinks">
+        <a href="./index.html">Home</a>
+        <a href="./property.html" class="active">Property</a>
+        <a href="./Team.html">Team</a>
+        <a href="./Sign_up.html">Sign Up</a>
+        <a href="./Sign_in.html">Sign In</a>
+      </div>
+
+      <div class="linksMob d-none">
+
+        <div class="barIcon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="pageLinksMob">
+          <a href="./index.html">Home</a>
+          <a href="./property.html" class="active">Property</a>
+          <a href="./Team.html">Team</a>
+          <a href="./Sign_up.html">Sign Up</a>
+          <a href="./Sign_in.html">Sign In</a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========================== bgPages Section ========================== -->
+    <section class="bgPages">
+      <div class="overlay"></div>
+      <div class="bgPages__text">
+        <h1>Property Grid</h1>
+        <h2>Home > Property Grid</h2>
+      </div>
+    </section>
+
+    <!-- ========================== Property Grid ========================== -->
+    <section class="propertyGrid ">
+      <div class="propertyGrid__header container" data-aos="fade-right" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+        <h1 class="propertyGrid__header__title">21 Properties</h1>
+
+        <div class="propertyGrid__header__input" >
+          <input type="text" placeholder="Search your keyword" id="searchInput">
+          <div class="icon" id="searchIcon">
+            <i class="fa-solid fa-search"></i>
+          </div>
+        </div>
+
+        <select class="propertyGrid__header__select" name="sort" id="sort">
+          <option class="option" value="sort">Sort By</option>
+          <option class="option" value="sort">Sort By</option>
+          <option class="option" value="sort">Sort By</option>
+        </select>
+      </div>
+
+      <div class="propertyGrid__items container">
+
+        <div class="propertyGrid__items__card 1" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-1.png" alt="Grid1" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Daily Apartment</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+        
+        <div class="propertyGrid__items__card 2" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-2.png" alt="Grid2" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt">Ayman</i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Family House</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+
+        <div class="propertyGrid__items__card 3" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-3.png" alt="Grid3" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Beach House</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+        
+        <div class="propertyGrid__items__card 4" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-4.png" alt="Grid4" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Hotel Apartment</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+
+        <div class="propertyGrid__items__card 5" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-5.png" alt="Grid5" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Daily Apartment</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+
+        <div class="propertyGrid__items__card 6" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-6.png" alt="Grid6" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Villa House</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+
+        <div class="propertyGrid__items__card 7" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-7.png" alt="Grid7" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Sunshine Place</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+
+        <div class="propertyGrid__items__card 8" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-8.png" alt="Grid8" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <a href="./Property_Details.html" class="propertyGrid__items__card__footer__title">Sunny Place</a>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+        
+        <div class="propertyGrid__items__card 9" data-aos="fade-up" data-aos-delay="80" data-aos-duration="700" data-aos-easing="ease-in-out">
+
+          <div class="propertyGrid__items__card__boxImg">
+
+            <img src="assets/img/Grid-9.png" alt="Grid9" class="imgGrid"> 
+
+            <div class="propertyGrid__items__card__boxImg__details">
+
+                <img src="./assets/img/avatar.png" alt="avatar">
+
+                <div class="info">
+                  <h6>Owner Name</h6>
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <span>New York real estate</span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="propertyGrid__items__card__footer">
+            <h2 class="propertyGrid__items__card__footer__title">Beach House</h2>
+              <div class="propertyGrid__items__card__footer__Location">
+                <i class="fa-solid fa-map-marker-alt"></i>
+                <span>New York</span>
+
+                <span>For Sell</span>
+              </div>
+
+              <p class="propertyGrid__items__card__footer__desc">Lorem ipsum dolor constetur</p>
+
+              <div class="propertyGrid__items__card__footer__price">
+                <span>$</span>
+                <span>80,650,00</span>
+              </div>
+
+              <ul class="propertyGrid__items__card__footer__listEnd">
+                  <li>3 Bedroom</li>
+                  <li>2 Bathroom</li>
+                  <li>1026 sqft</li>
+              </ul>
+
+
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================== Footer ==========================  -->
+
+  <footer class="footer">
+    <div class="overlay"></div>
+    <div class="footer__items container">
+
+      <div class="footer__items__item 1">
+        <h2 class="footer__items__item__title">Contact Us</h2>
+        <div class="footer__items__item__list">
+          <li>
+            <i class="fa-solid fa-map-marker-alt"></i>
+            <span>123 Street, New York, USA</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 123 456 7890</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <a href="mailto:" class="emailLink">info.Procoor@gmail.com</a>
+          </li>
+        </div>
+      </div>
+
+      <div class="footer__items__item 2">
+        <h2 class="footer__items__item__title">Quick link</h2>
+        <div class="footer__items__item__list">
+          <li>
+            <a href="#">Propperty</a>
+          </li>
+
+          <li>
+            <a href="#">Team</a>
+          </li>
+
+          <li>
+            <a href="#">Register</a>
+          </li>
+
+          <li>
+            <a href="#">Log In</a>
+          </li>
+
+
+        </div>
+      </div>
+
+      <div class="footer__items__item 3">
+        <h2 class="footer__items__item__title">Categories</h2>
+        <div class="footer__items__item__list">
+          <li>
+            <a href="#">Arts & Design</a>
+          </li>
+
+          <li>
+            <a href="#">Business</a>
+          </li>
+
+          <li>
+            <a href="#">Computer Science</a>
+          </li>
+
+          <li>
+            <a href="#">Data Science</a>
+          </li>
+
+
+        </div>
+      </div>
+
+      <div class="footer__items__item 4">
+        <h2 class="footer__items__item__title">Newsletter</h2>
+        <p>Lorem ipsum dolor sit amet,</p>
+        <div class="footer__items__item__list inputs">
+          <li>
+            <input type="email" placeholder="Your Email">
+          </li>
+
+          <li>
+            <button><span>Subscribe</span></button>
+          </li>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__border"></div>
+
+    <div class="footer__copyRight container">
+      <p>© 2023, Copy Right By Procoor. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+
+  
+  <!--=============== Jquery js ===============-->
+  <script src="./assets/js/jquery-3.6.0.min.js"></script> 
+  <!--=============== Bootstrap js ===============-->
+  <script src="./assets/js/bootstrap.min.js"></script>
+
+
+  <!-- =============== Aos js =============== -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <!--=============== js ===============-->
+  <script src="./assets/js/main.js"></script>
+
+
+
+
+  <!--=============== Filter Search js ===============-->
+  <script src="./assets/js/filterSearch.js"></script>
+
+
+</body>
+
+</html>
