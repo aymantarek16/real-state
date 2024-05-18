@@ -9,7 +9,7 @@ Welcome to our real estate site, your go-to platform for finding your dream prop
 ---
 
 1. Html
-2. Css
+2. Css / Sass
 3. Java script
 
 ![preview](https://res.cloudinary.com/dsj56djsq/image/upload/v1716039996/Images%20of%20my%20Projects/Ui/Real-state_juhna4.png)
